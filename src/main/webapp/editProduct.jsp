@@ -46,7 +46,7 @@ if(("wrong".equals(msg)))
 <h3 style="color: blue; text-align: center;">Product ID:<%out.println(id); %> </h3>
 <input type="hidden" name="id" value="<% out.println(id);%>">
 <div class="left-div">
- <h3>Enter Name %></h3>
+ <h3>Enter Name </h3>
 <input class="input-style" type="text" name="name" value="<%=rs.getString(2)%>" required>
 <hr>
 </div>

@@ -4,7 +4,7 @@
 
 <html>
 <head>
-<link rel="stylesheet" href="../css/addNewProduct-style.css">
+<link rel="stylesheet" href="css/addNewProduct-style.css">
 <title>Add New Product</title>
 </head>
 <body>

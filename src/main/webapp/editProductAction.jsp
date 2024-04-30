@@ -13,7 +13,7 @@ try{
 //	st.executeUpdate("delete from product where id is null");
 	if(active.equals("No"))
 	{
-		st.executeUpdate("delete from product where id='"+id+"'");
+		st.executeUpdate("delete from cart where product_id='"+id+"' and address is NULL");
 	}
 	response.sendRedirect("allProductEditProduct.jsp?msg=done");
 	
